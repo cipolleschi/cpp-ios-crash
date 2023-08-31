@@ -8,11 +8,18 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import <memory>
+#import <glog/logging.h>
+#import <double-conversion/bignum.h>
 
 int main(int argc, char * argv[]) {
   NSString * appDelegateClassName;
   @autoreleasepool {
+    google::InitGoogleLogging(argv[0]);
+    auto bigNum = double_conversion::Bignum();
+    bigNum.AssignUInt16(100);
+    LOG(INFO) << "Test glog";
     auto ptr = std::make_shared<int>(0);
+    
     
     
       // Setup code that might create autoreleased objects goes here.

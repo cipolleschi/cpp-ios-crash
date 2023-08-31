@@ -4,4 +4,5 @@ platform :ios, '13.4'
 
 target 'testCxx' do
     pod 'glog', :podspec => "./third-party-podspecs/glog.podspec"
+    pod 'DoubleConversion', :podspec => "./third-party-podspecs/DoubleConversion.podspec"
 end

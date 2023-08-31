@@ -14,13 +14,13 @@
             filePath = "testCxx/main.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "main(argc, argv)"
             landmarkType = "9">
             <Locations>
                <Location
-                  uuid = "965E0ABD-89DB-453A-A294-FEABC4B11C17 - d541ec68f3e5bde1"
+                  uuid = "965E0ABD-89DB-453A-A294-FEABC4B11C17 - d541ec68f3e5bd80"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,12 @@
                   urlString = "file:///Users/cipolleschi/Tests/testCxx/testCxx/main.mm"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
                   offsetFromSymbolStart = "60">
                </Location>
                <Location
-                  uuid = "965E0ABD-89DB-453A-A294-FEABC4B11C17 - d541ec68f3e5bde1"
+                  uuid = "965E0ABD-89DB-453A-A294-FEABC4B11C17 - d541ec68f3e5ba23"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,12 +45,12 @@
                   urlString = "file:///Users/cipolleschi/Tests/testCxx/testCxx/main.mm"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
                   offsetFromSymbolStart = "40">
                </Location>
                <Location
-                  uuid = "965E0ABD-89DB-453A-A294-FEABC4B11C17 - d541ec68f3e5ba7c"
+                  uuid = "965E0ABD-89DB-453A-A294-FEABC4B11C17 - d541ec68f3e5bda7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -60,9 +60,9 @@
                   urlString = "file:///Users/cipolleschi/Tests/testCxx/testCxx/main.mm"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "40">
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "112">
                </Location>
             </Locations>
          </BreakpointContent>
