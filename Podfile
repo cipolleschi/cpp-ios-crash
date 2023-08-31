@@ -6,6 +6,7 @@ target 'testCxx' do
     pod 'glog', :podspec => "./third-party-podspecs/glog.podspec"
     pod 'DoubleConversion', :podspec => "./third-party-podspecs/DoubleConversion.podspec"
     pod 'boost', :podspec => "./third-party-podspecs/boost.podspec"
+    pod 'fmt' , '~> 6.2.1'
 end
 
 post_install do |installer|
