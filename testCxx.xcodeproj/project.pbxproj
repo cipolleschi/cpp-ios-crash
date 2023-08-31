@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C159BE0323448E02F872F3A3 /* libPods-testCxx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAFAA2EF09E965AF540C613 /* libPods-testCxx.a */; };
 		CD5CE6532A9A6C5A003477BB /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD5CE6522A9A6C5A003477BB /* AppDelegate.mm */; };
 		CD5CE6562A9A6C5A003477BB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5CE6552A9A6C5A003477BB /* SceneDelegate.m */; };
 		CD5CE6592A9A6C5A003477BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5CE6582A9A6C5A003477BB /* ViewController.m */; };
@@ -14,13 +15,12 @@
 		CD5CE65E2A9A6C5B003477BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5CE65D2A9A6C5B003477BB /* Assets.xcassets */; };
 		CD5CE6612A9A6C5B003477BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5CE65F2A9A6C5B003477BB /* LaunchScreen.storyboard */; };
 		CD5CE6642A9A6C5B003477BB /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD5CE6632A9A6C5B003477BB /* main.mm */; };
-		F22C8839D7314B4A2E030F33 /* libPods-testCxx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1686765CB76CF603F170CD /* libPods-testCxx.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7F9E20A00915D4F5CCBD194B /* Pods-testCxx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCxx.release.xcconfig"; path = "Target Support Files/Pods-testCxx/Pods-testCxx.release.xcconfig"; sourceTree = "<group>"; };
-		8876D9CBF81B69CE55964A24 /* Pods-testCxx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCxx.debug.xcconfig"; path = "Target Support Files/Pods-testCxx/Pods-testCxx.debug.xcconfig"; sourceTree = "<group>"; };
-		BD1686765CB76CF603F170CD /* libPods-testCxx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testCxx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		383A793D08599B1A77F8FD02 /* Pods-testCxx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCxx.debug.xcconfig"; path = "Target Support Files/Pods-testCxx/Pods-testCxx.debug.xcconfig"; sourceTree = "<group>"; };
+		5B0A1F643FECE0F5211A1AE7 /* Pods-testCxx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCxx.release.xcconfig"; path = "Target Support Files/Pods-testCxx/Pods-testCxx.release.xcconfig"; sourceTree = "<group>"; };
+		7EAFAA2EF09E965AF540C613 /* libPods-testCxx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testCxx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5CE64E2A9A6C5A003477BB /* testCxx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCxx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5CE6512A9A6C5A003477BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD5CE6522A9A6C5A003477BB /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -40,29 +40,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F22C8839D7314B4A2E030F33 /* libPods-testCxx.a in Frameworks */,
+				C159BE0323448E02F872F3A3 /* libPods-testCxx.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		017A7F039BFB5CCA186D87D1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BD1686765CB76CF603F170CD /* libPods-testCxx.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		2383D78576B7FE950B5813A3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8876D9CBF81B69CE55964A24 /* Pods-testCxx.debug.xcconfig */,
-				7F9E20A00915D4F5CCBD194B /* Pods-testCxx.release.xcconfig */,
+				383A793D08599B1A77F8FD02 /* Pods-testCxx.debug.xcconfig */,
+				5B0A1F643FECE0F5211A1AE7 /* Pods-testCxx.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4492016223412737CCC35554 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EAFAA2EF09E965AF540C613 /* libPods-testCxx.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CD5CE6452A9A6C5A003477BB = {
@@ -71,7 +70,7 @@
 				CD5CE6502A9A6C5A003477BB /* testCxx */,
 				CD5CE64F2A9A6C5A003477BB /* Products */,
 				2383D78576B7FE950B5813A3 /* Pods */,
-				017A7F039BFB5CCA186D87D1 /* Frameworks */,
+				4492016223412737CCC35554 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +107,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD5CE6672A9A6C5B003477BB /* Build configuration list for PBXNativeTarget "testCxx" */;
 			buildPhases = (
-				67AADF16C98DB50C3CBAFCAE /* [CP] Check Pods Manifest.lock */,
+				BB919AD2569971D66545CF5B /* [CP] Check Pods Manifest.lock */,
 				CD5CE64A2A9A6C5A003477BB /* Sources */,
 				CD5CE64B2A9A6C5A003477BB /* Frameworks */,
 				CD5CE64C2A9A6C5A003477BB /* Resources */,
@@ -168,7 +167,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		67AADF16C98DB50C3CBAFCAE /* [CP] Check Pods Manifest.lock */ = {
+		BB919AD2569971D66545CF5B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,6 +270,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -327,6 +327,8 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = _LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -344,13 +346,21 @@
 		};
 		CD5CE6682A9A6C5B003477BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8876D9CBF81B69CE55964A24 /* Pods-testCxx.debug.xcconfig */;
+			baseConfigurationReference = 383A793D08599B1A77F8FD02 /* Pods-testCxx.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"$(PODS_ROOT)/DoubleConversion\"",
+					"\"$(PODS_ROOT)/boost\"",
+				);
 				INFOPLIST_FILE = testCxx/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -371,13 +381,21 @@
 		};
 		CD5CE6692A9A6C5B003477BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F9E20A00915D4F5CCBD194B /* Pods-testCxx.release.xcconfig */;
+			baseConfigurationReference = 5B0A1F643FECE0F5211A1AE7 /* Pods-testCxx.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"$(PODS_ROOT)/DoubleConversion\"",
+					"\"$(PODS_ROOT)/boost\"",
+				);
 				INFOPLIST_FILE = testCxx/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
