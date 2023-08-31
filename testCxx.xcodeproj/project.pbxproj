@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD5CE6532A9A6C5A003477BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5CE6522A9A6C5A003477BB /* AppDelegate.m */; };
+		CD5CE6532A9A6C5A003477BB /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD5CE6522A9A6C5A003477BB /* AppDelegate.mm */; };
 		CD5CE6562A9A6C5A003477BB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5CE6552A9A6C5A003477BB /* SceneDelegate.m */; };
 		CD5CE6592A9A6C5A003477BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5CE6582A9A6C5A003477BB /* ViewController.m */; };
 		CD5CE65C2A9A6C5A003477BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5CE65A2A9A6C5A003477BB /* Main.storyboard */; };
 		CD5CE65E2A9A6C5B003477BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5CE65D2A9A6C5B003477BB /* Assets.xcassets */; };
 		CD5CE6612A9A6C5B003477BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5CE65F2A9A6C5B003477BB /* LaunchScreen.storyboard */; };
-		CD5CE6642A9A6C5B003477BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5CE6632A9A6C5B003477BB /* main.m */; };
+		CD5CE6642A9A6C5B003477BB /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD5CE6632A9A6C5B003477BB /* main.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD5CE64E2A9A6C5A003477BB /* testCxx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCxx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5CE6512A9A6C5A003477BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CD5CE6522A9A6C5A003477BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD5CE6522A9A6C5A003477BB /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		CD5CE6542A9A6C5A003477BB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		CD5CE6552A9A6C5A003477BB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		CD5CE6572A9A6C5A003477BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -28,7 +28,7 @@
 		CD5CE65D2A9A6C5B003477BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD5CE6602A9A6C5B003477BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD5CE6622A9A6C5B003477BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD5CE6632A9A6C5B003477BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD5CE6632A9A6C5B003477BB /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				CD5CE6512A9A6C5A003477BB /* AppDelegate.h */,
-				CD5CE6522A9A6C5A003477BB /* AppDelegate.m */,
+				CD5CE6522A9A6C5A003477BB /* AppDelegate.mm */,
 				CD5CE6542A9A6C5A003477BB /* SceneDelegate.h */,
 				CD5CE6552A9A6C5A003477BB /* SceneDelegate.m */,
 				CD5CE6572A9A6C5A003477BB /* ViewController.h */,
@@ -71,7 +71,7 @@
 				CD5CE65D2A9A6C5B003477BB /* Assets.xcassets */,
 				CD5CE65F2A9A6C5B003477BB /* LaunchScreen.storyboard */,
 				CD5CE6622A9A6C5B003477BB /* Info.plist */,
-				CD5CE6632A9A6C5B003477BB /* main.m */,
+				CD5CE6632A9A6C5B003477BB /* main.mm */,
 			);
 			path = testCxx;
 			sourceTree = "<group>";
@@ -147,8 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD5CE6592A9A6C5A003477BB /* ViewController.m in Sources */,
-				CD5CE6532A9A6C5A003477BB /* AppDelegate.m in Sources */,
-				CD5CE6642A9A6C5B003477BB /* main.m in Sources */,
+				CD5CE6532A9A6C5A003477BB /* AppDelegate.mm in Sources */,
+				CD5CE6642A9A6C5B003477BB /* main.mm in Sources */,
 				CD5CE6562A9A6C5A003477BB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,7 +182,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -213,7 +213,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -227,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -243,7 +243,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -274,7 +274,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -282,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
