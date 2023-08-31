@@ -11,6 +11,7 @@
 #import <glog/logging.h>
 #import <double-conversion/bignum.h>
 #import <boost/any.hpp>
+#import <folly/dynamic.h>
 
 int main(int argc, char * argv[]) {
   NSString * appDelegateClassName;
@@ -20,6 +21,7 @@ int main(int argc, char * argv[]) {
     bigNum.AssignUInt16(100);
     LOG(INFO) << "Test glog";
     auto any = boost::any();
+    auto dyn = folly::dynamic();
     
     auto ptr = std::make_shared<int>(0);
     
