@@ -7,16 +7,13 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
-
-struct St {
-};
+#import <memory>
 
 int main(int argc, char * argv[]) {
   NSString * appDelegateClassName;
   @autoreleasepool {
-    auto ptr = new St;
-    NSLog(@"%p", ptr);
-    delete ptr;
+    auto ptr = std::make_shared<int>(0);
+    
     
       // Setup code that might create autoreleased objects goes here.
       appDelegateClassName = NSStringFromClass([AppDelegate class]);
